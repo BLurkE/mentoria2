@@ -1,0 +1,173 @@
+body{
+  background: #EFEFEF;
+  font-family: 'Poppins', sans-serif;
+
+  color: #FFF;
+}
+
+body::before{
+  position: absolute;
+  content:'';
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 436px;
+  background: #535971;
+}
+
+.page{
+  width: 750px;
+  margin: auto;
+
+}
+
+h1, legend{
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+header{
+  margin-top: 140px;
+  margin-bottom: 58px;
+  gap: 18px;
+}
+
+header h1{
+  font-size: 48px;
+}
+
+header p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  width: 417px;
+}
+
+main{
+  color: #535971;
+}
+
+form{
+  background: #FFF;
+  padding: 64px 64px 44px;
+  border-radius: 8px 8px 0 0;
+}
+
+
+
+fieldset{
+  border: none;
+  margin-bottom: 20px;
+}
+
+footer{
+  height: 160px;
+  background: #535971;
+
+  border-radius: 00 8px 8px;
+  display: flex;
+
+  margin-bottom: 80px;
+}
+
+.button{
+  width: 608px;
+  height: 56px;
+  color: #FFF;
+  background: #FF5374;
+
+  font-family: 'Staatliches';
+  font-size: 20px;
+  line-height: 26px;
+
+  margin: auto;
+  border-radius: 8px;
+
+  border:none;
+}
+
+.button:hover{
+  background: #e74c6b;
+  cursor: pointer;
+}
+
+.linha{
+  width: 100%;
+  border: 1px solid #E6E6F0;
+
+  margin-bottom: 20px;
+}
+
+.fieldset-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fieldset-wrapper h1{
+  font-size: 20px;
+  margin: 0;
+}
+
+.col-2{
+  display: flex;
+  gap: 22px;
+}
+
+.col-3{
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 10px;
+}
+
+.col-3 .input-wrapper{
+  width: 140px;
+}
+
+.col-3 > div:nth-child(1){
+  margin-right: 22px;
+  width: 100%;
+}
+
+.input-wrapper{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input{
+  height: 56px;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  box-sizing: border-box;
+  padding: 15px;
+
+  font-size: 15px;
+  color: #4E4958;
+}
+
+.input-wrapper label{
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span{
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+
+}
+
+.input-wrapper label span:hover{
+  color: #6c6b6e;
+  cursor: pointer;
+}
